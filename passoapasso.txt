@@ -1,0 +1,15 @@
+1. verificar a versão do git, do node e do npm
+2. ter instalado também o google chrome e o vs code
+3. aplicação a ser testada: https://cac-tat.s3.eu-central-1.amazonaws.com/index.html
+4. fazer o fork do projeto através do comando 'git clone'
+5. No cmd:
+    4.1 Na raiz do projeto, execute o comando 'npm install cypress@9.5.1 --save-dev' (ou npm i cypress@9.5.1 -D para a versão curta)
+    4.2 Logo após, execute o comando 'npx cypress open' para abrir o Cypress pela primeira vez
+    4.3 Por fim, com o Test Runner aberto, delete os exemplos criados automaticamente, crie um arquivo chamado 'CAC-TAT.spec.js' e feche o Test Runner.
+    4.4 Atualizar o arquivo 'cypress.json' conforme abaixo.
+            {
+            "pluginsFile": false,
+            "viewportHeight": 880,
+            "viewportWidth": 1280
+            }
+    4.5 Deletar o diretório 'cypress/plugins/'

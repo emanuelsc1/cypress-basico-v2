@@ -1,0 +1,15 @@
+1. alterar o package.json, adicionanado o cypress no nos scripts:
+        "scripts": {
+            "cy:open": "cypress open",
+            "test": "cypress run" (roda os testes sem ver o navegador abrindo)
+        },
+
+2. criar o teste no arquivo CAC-TAT.spec.js
+
+3. comando customizado
+    para cirar o comando customizado, utilizar o arquivo commands.js, por meio do comando:
+        Cypress.Commands.add('nomeDaFuncao', funcion(){})
+    depois chamar a função no teste
+        cy.nomeDaFuncao()
+
+4. para rodar um teste específico, utilizar o 'it.only'

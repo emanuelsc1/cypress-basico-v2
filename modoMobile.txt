@@ -1,0 +1,9 @@
+Para ativar o modo Mobile, utilziar o script 
+
+    "cy:open:mobile": "cypress open --config viewportWidth=410 viewportHeight=860",
+
+na seção dos scripts, dentro do arquivo 'package.json'
+
+
+Para rodar os testes em modo headless:
+    "test:mobile": "cypress run --config viewportWidth=410 viewportHeight=860"

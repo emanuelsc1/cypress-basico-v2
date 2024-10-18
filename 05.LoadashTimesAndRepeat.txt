@@ -1,0 +1,7 @@
+Loadash é uma biblioteca javscript, com diversos métodos
+
+O 'times' é utilizado para executar um mesmo método várias vezes
+    *pode ser utilizada para executar o teste várias vezes
+O 'repeat' é utilizado para inserir um conteúdo n vezes
+    const longText = Cypress._.repeat('aaaaaa', 20)
+    *o 'aaaaaa' será inserido 20 vezes no campo

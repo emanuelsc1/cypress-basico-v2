@@ -1,0 +1,6 @@
+O clock e tick são utilziados para adiantar o tempo de execução de um teste
+    cy.clock()
+    cy.tick(3000)
+
+    O clock para o tempo para executar determinado comando
+    O tick é utilziado para avançar no tempo (em milissegundos)
